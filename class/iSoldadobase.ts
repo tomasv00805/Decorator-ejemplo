@@ -1,3 +1,3 @@
 export interface iSoldadobase {
-    dañorecivido(): number;
+    daniorecibido(): number;
 }

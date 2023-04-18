@@ -8,7 +8,7 @@ export default abstract class Soldadodecorator implements Soldado {
         this.enemigo = enemigo;
     }
 
-    dañorecivido(): number {
-        return this.enemigo.dañorecivido();
+    daniorecibido(): number {
+        return this.enemigo.daniorecibido();
     }
 }

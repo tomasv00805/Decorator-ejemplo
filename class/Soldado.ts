@@ -1,6 +1,6 @@
 import { iSoldadobase } from "./iSoldadobase";
 export class Soldado implements iSoldadobase {
-    dañorecivido(): number {
+    daniorecibido(): number {
         return 10;
     }
 }
